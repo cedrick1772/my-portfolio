@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Hobbies</title>
+
+    <link rel="Website icon" href="Hobbies.png" />
+    <style>
+      .tab {
+        overflow: hidden;
+      }
+
+      .tab button {
+        background-color: #941b1b;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        transition: 0.3s;
+      }
+
+      .tab button:hover {
+        background-color: #8a1616;
+      }
+
+      /* Content for each tab */
+      .tabcontent {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Hobbies</h1>
+
+    <div class="tab">
+      <button onclick="openTab('hobby1')">Hobby 1</button>
+      <button onclick="openTab('hobby2')">Hobby 2</button>
+      <button onclick="openTab('hobby3')">Hobby 3</button>
+    </div>
+
+    <div id="hobby1" class="tabcontent">
+      <h2>Hobby 1: Playing Dota</h2>
+    </div>
+
+    <div id="hobby2" class="tabcontent">
+      <h2>Hobby 2: Watching Anime</h2>
+    </div>
+
+    <div id="hobby3" class="tabcontent">
+      <h2>Hobby 3: Reading Manga</h2>
+    </div>
+    <script>
+      function openTab(tabName) {
+        var i, tabcontent;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+      }
+      openTab("hobby1");
+    </script>
+  </body>
+</html>
