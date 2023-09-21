@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+span{
+    color: gray;
+}
+.contact{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(background3.png);
+}
+.contact img{
+    height: auto;
+    width: 300px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.admin{
+    width: 100%;
+    padding:30px 90px;
+}
+
+.main-text h2{
+    color: white;
+    font-size: 58px;
+    text-transform:  capitalize;
+    margin-bottom: 20px;
+}
+.admin2 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.admin2 ul li{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.back .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.back .button:hover{
+background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
