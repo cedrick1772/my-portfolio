@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+span{
+    color: gray;
+}
+.education{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(background2.jpg);
+}
+.education img{
+    height: auto;
+    width: 200px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-text h2{
+    color: white;
+    font-size: 58px;
+    text-transform:  capitalize;
+    margin-bottom: 20px;
+}.course
+{
+    width: 100%;
+    padding:50px 110px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 5px;
+}
+.title h3{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
+nav ul li{
+    width: 500px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.title p{
+    font-size: 20;
+    color: white;
+}
+.back .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.back .button:hover{
+background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
