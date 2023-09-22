@@ -66,12 +66,12 @@ button:hover{
 
 .service{
     width: 100%;
-    padding: 100px 0px;
+    padding: 90px 0px;
 }
 .title h2{
     color: white;
     font-size: 75px;
-    width: 1375px;
+    width: auto;
     margin: 30px 0px;
     text-align: center;
     justify-content: center;
